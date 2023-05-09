@@ -4,7 +4,9 @@
     para indicar cuántos días pasaron hasta hoy de manera “humanizada”.
 */
 
-function daysFromTheThird(third){
+function daysFromTheThird(){
+    const third = new Date("2022-12-18")
+
     const spanishDays = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado","Domingo"]
 
     const spanishMonths = [ "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", 
@@ -21,5 +23,3 @@ function daysFromTheThird(third){
 
     return `Pasaron ${daysPassed} días desde el ${spanishDays[third.getDay()]}, ${third.getDate() + 1} de ${spanishMonths[third.getMonth()]} del ${third.getFullYear()}`
 }
-
-let third = new Date("2022-12-18")

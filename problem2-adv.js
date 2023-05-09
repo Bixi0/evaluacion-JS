@@ -5,6 +5,8 @@
 */
 
 function calculateDaysHoursMinutes(third){
+    const third = new Date("2022-12-18")
+
     let today = new Date()
     let secondsPassed = (today.getTime() - third.getTime()) / 1000
 
@@ -29,5 +31,3 @@ function daysFromTheThird(third){
 
     return `Pasaron ${calculateDaysHoursMinutes(third)} desde el ${spanishDays[third.getDay()]}, ${third.getDate() + 1} de ${spanishMonths[third.getMonth()]} del ${third.getFullYear()}`
 }
-
-let third = new Date("2022-12-18")
