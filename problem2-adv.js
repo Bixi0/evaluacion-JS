@@ -31,5 +31,3 @@ function daysFromTheThird(third){
 }
 
 let third = new Date("2022-12-18")
-
-console.log(daysFromTheThird(third))
