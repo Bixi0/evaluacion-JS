@@ -4,7 +4,7 @@
     función para “humanizar” dicha fecha.
 */
 
-function humanizeDate(date){
+function humanizeDate(){
     const third = new Date("2022-12-18")
 
     const spanishDays = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado","Domingo"]

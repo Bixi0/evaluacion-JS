@@ -4,7 +4,7 @@
     para indicar cuántos días, horas y minutos pasaron hasta hoy de manera “humanizada”.
 */
 
-function calculateDaysHoursMinutes(third){
+function calculateDaysHoursMinutes(){
     const third = new Date("2022-12-18")
 
     let today = new Date()
